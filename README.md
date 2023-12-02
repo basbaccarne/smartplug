@@ -13,9 +13,9 @@ In this project, I want to connect a smart plug (Tapo P100) to an Arduino to con
 - Test using the test module in the [IFTTT webhook documentation](https://ifttt.com/maker_webhooks) (enter the event name, e.g. "flush" in the web request)
 
 ## Setting up the Arduino to send a webhook to IFTTT when the light is turned off
-- WiFi connection is managed by "WiFi.h" (& requires an extra physical antenna on the esp32s) ([test 1](/tests/1_WiFi.ino))
-- Webhooks are managed by "HTTPClient.h" ([test 2](/tests/2_WiFi _Webhook.ino))
- 
+- WiFi connection is managed by "WiFi.h" (& requires an extra physical antenna on the esp32s) ([test 1](tests/1_WiFi.ino))
+- Webhooks are managed by "HTTPClient.h" ([test 2](tests/2_WiFi_Webhook.ino))
+   
 ## History & alternative plans
 - [Hacking the inside of the Tapo](https://www.youtube.com/watch?v=99iAK1JeAeo) > hard to pry open (& less safe)
 - Linking with [Samsung SmartThings](https://smartthings.developer.samsung.com/) & create an Automation triggered by a webhook or MQTT > too complex
