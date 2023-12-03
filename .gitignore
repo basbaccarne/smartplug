@@ -1,2 +1,4 @@
 tests/1_WiFi/arduino_secrets.h
 tests/2_WiFi_Webhook/arduino_secrets.h
+.vscode/arduino.json
+.vscode/c_cpp_properties.json
