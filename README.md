@@ -1,10 +1,11 @@
 # smartplug
 In this project, I want to connect a smart plug (Tapo P100) to an Arduino to control a ventilation system triggered by the light in the toilet.
 ## Components
-- Tapo P100
-- xiao esp32s3
-- 3.7V lithium battery: [documentation](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/)
+- [Tapo P100](https://www.tp-link.com/nl-be/home-networking/smart-plug/tapo-p100/)
+- [xiao esp32s3](https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html)
+- [3.7V lithium battery](https://www.kiwi-electronics.com/nl/lithium-polymer-li-po-accu-3-7v-500mah-2200): [documentation](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/)
 - LDR light dependent resistor 
+<img src="/img/hardware.jpg" alt="components" style="height: 7cm; width:10cm;"/>
 ## Platforms & software
 - Connect P100 with the tapo app
 - Configure a shortcut program in the tapo app (e.g. set the plug on for 5 seconds)
