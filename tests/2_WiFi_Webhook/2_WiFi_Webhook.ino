@@ -1,4 +1,5 @@
 // test 2: connect XIAO esp32s3 to WiFi & send webhook
+// this scripts sends a webhook to IFTTT every 10 seconds
 
 // Load WiFi libraries
 #include "WiFi.h"
