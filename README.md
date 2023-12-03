@@ -17,7 +17,7 @@ In this project, I want to connect a smart plug (Tapo P100) to an Arduino to con
 - Test using the test module in the [IFTTT webhook documentation](https://ifttt.com/maker_webhooks) (enter the event name, e.g. "flush" in the web request)
 
 <p align="center">
-<img src="/img/ifttt.png" alt="ifttt applet" style="height: 5cm; width:10cm;"/>
+<img src="/img/ifttt.png" alt="ifttt applet" style="height: 6cm; width:10cm;"/>
 </p>
 
 ## Setting up the Arduino to send a webhook to IFTTT when the light is turned off
