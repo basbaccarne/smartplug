@@ -13,8 +13,8 @@ char hostname[] = "ESP23S_lightsensor";
 // Set IFTTT credentials (get event & API key from "arduino_secrets.h")
 const String event = IFTTT_EVENT_NAME;
 const String key = IFTTT_API_KEY;
-const String HOST_NAME ="https://maker.ifttt.com";
-const String PATH_NAME= "/trigger/" + event + "/json/with/key/" + key;
+const String HOST_NAME = "https://maker.ifttt.com";
+const String PATH_NAME = "/trigger/" + event + "/json/with/key/" + key;
 const String queryString = "variable1=1";
 
 // create a function to set-up the WiFi connection
@@ -34,7 +34,7 @@ void initWiFi() {
 void setup() {
   Serial.begin(9600);
 
- // set WiFi to station mode
+  // set WiFi to station mode
   WiFi.mode(WIFI_STA);
 
   // disconnect from an AP if it was previously connected
@@ -43,17 +43,16 @@ void setup() {
 
   // attempt to connect to Wifi network:
   initWiFi();
-
 }
 
 void loop() {
   // define the http client
   HTTPClient http;
 
- // open http connection
+  // open http connection
   http.begin(HOST_NAME + PATH_NAME);
   http.addHeader("Content-Type", "application/x-www-form-urlencoded");
-  
+
   // post the http payload
   int httpCode = http.POST(queryString);
 
