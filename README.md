@@ -20,10 +20,23 @@ In this project, I want to connect a smart plug (Tapo P100) to an Arduino to con
 <img src="/img/ifttt.png" alt="ifttt applet" style="height: 6cm; width:10cm;"/>
 </p>
 
-## Setting up the Arduino to send a webhook to IFTTT when the light is turned off
+## Set-up Arduino to send a webhook to IFTTT
 - WiFi connection is managed by "WiFi.h" (& requires an extra physical antenna on the esp32s) ([test 1](tests/1_WiFi/1_WiFi.ino))
 - Webhooks are managed by "HTTPClient.h" ([test 2](tests/2_WiFi_Webhook/2_WiFi_Webhook.ino))
-   
+
+## Set-up Arduino to trigger on light detection
+- [ ] LDR and thresholds
+- [ ] LED feedback
+
+## Set-up Arduino power management
+- [ ] Battery connection
+- [ ] Charging
+- [ ] Sleep
+- [ ] Low power warning
+
+## Casing
+- [ ] CAD file
+
 ## History & alternative plans
 - [Hacking the inside of the Tapo](https://www.youtube.com/watch?v=99iAK1JeAeo) > hard to pry open (& less safe)
 - Linking with [Samsung SmartThings](https://smartthings.developer.samsung.com/) & create an Automation triggered by a webhook or MQTT > too complex
