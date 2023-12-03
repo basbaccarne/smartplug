@@ -8,6 +8,7 @@ In this project, I want to connect a smart plug (Tapo P100) to an Arduino to con
 <p align="center">
 <img src="/img/hardware.jpg" alt="components" style="height: 7cm; width:10cm;"/>
 </p>
+
 ## Platforms & software
 - Connect P100 with the tapo app
 - Configure a shortcut program in the tapo app (e.g. set the plug on for 5 seconds)
