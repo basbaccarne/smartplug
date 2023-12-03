@@ -24,9 +24,17 @@ In this project, I want to connect a smart plug (Tapo P100) to an Arduino to con
 - WiFi connection is managed by "WiFi.h" (& requires an extra physical antenna on the esp32s) ([test 1](tests/1_WiFi/1_WiFi.ino))
 - Webhooks are managed by "HTTPClient.h" ([test 2](tests/2_WiFi_Webhook/2_WiFi_Webhook.ino))
 
+<p align="center">
+<img src="https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/img/5.gif" alt="antenna" style="height: 6cm; width:10cm;"/>
+</p>
+
 ## Set-up Arduino to trigger on light detection
 - [ ] LDR and thresholds
 - [ ] LED feedback
+
+<p align="center">
+<img src="img/wires.png" alt="wires" style="height: 8cm; width:10cm;"/>
+</p>
 
 ## Set-up Arduino power management
 - [ ] Battery connection
