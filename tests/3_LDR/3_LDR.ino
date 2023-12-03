@@ -7,6 +7,7 @@ bool old_light = false;
 
 void setup() {
   Serial.begin(9600);
+  pinMode(LED_BUILTIN, OUTPUT);
 }
 
 void loop() {
@@ -29,6 +30,12 @@ void loop() {
     old_light = light;
     if (!light) {
       Serial.println("Flush it");
+      for(int i = 0; i < 10; i++) {
+        digitalWrite(LED_BUILTIN, HIGH);
+        delay(100);
+        digitalWrite(LED_BUILTIN, LOW);
+        delay(100);
+      }
     }
   }
 
