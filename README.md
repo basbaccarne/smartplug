@@ -29,11 +29,14 @@ In this project, I want to connect a smart plug (Tapo P100) to an Arduino to con
 </p>
 
 ## Set-up Arduino to trigger on light detection
-- [ ] LDR and thresholds
-- [ ] LED feedback
+- LDR and thresholds & LED feedback - [test without sending the webhook](tests/3_LDR/3_LDR.ino)
 
 <p align="center">
 <img src="img/wires.png" alt="wires" style="height: 8cm; width:10cm;"/>
+
+</p>
+<p align="center">
+    <img src="img/threshold.gif" alt="interaction" style="height: 6cm; width:10cm;"/>
 </p>
 
 ## Set-up Arduino power management
