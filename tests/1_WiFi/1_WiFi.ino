@@ -1,6 +1,6 @@
 // test 1: connect XIAO esp32s3 to WiFi
 
-// load libraries for WiFi 
+// load libraries for WiFi
 #include "WiFi.h"
 
 // set Wifi credentials
@@ -25,7 +25,7 @@ void initWiFi() {
 void setup() {
   Serial.begin(9600);
 
- // set WiFi to station mode
+  // set WiFi to station mode
   WiFi.mode(WIFI_STA);
 
   // disconnect from an AP if it was previously connected
@@ -34,7 +34,6 @@ void setup() {
 
   // attempt to connect to Wifi network:
   initWiFi();
-
 }
 
 void loop() {
