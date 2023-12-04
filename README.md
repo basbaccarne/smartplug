@@ -30,7 +30,7 @@ This project connects a smart plug (Tapo P100) to an Arduino to control a ventil
 
 ## Set-up Arduino to trigger on light detection
 - LDR and thresholds & LED feedback - [test without sending the webhook](tests/3_LDR/3_LDR.ino)
-- Integrated script that reads the LDR sensor, detects when the light is turned off, connects the esp32s3 to WiFi & sends a webhook to IFTTT when the light is turned off- [test 4](tests/4_integration/4_integration.ino)
+- Integrated script that reads the LDR sensor, detects when the light is turned off, connects the esp32s3 to WiFi & sends a webhook to IFTTT when the light is turned off- [test](tests/4_integration/4_integration.ino)
 
 <p align="center">
 <img src="img/wires.png" alt="wires" style="height: 8cm; width:10cm;"/>
