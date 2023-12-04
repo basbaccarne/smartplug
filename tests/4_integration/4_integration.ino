@@ -80,6 +80,7 @@ void sendWebhook() {
 void setup() {
   Serial.begin(115200);
   pinMode(LED_BUILTIN, OUTPUT);
+  digitalWrite(LED_BUILTIN, HIGH);
 
   // set WiFi to station mode
   WiFi.mode(WIFI_STA);
@@ -114,9 +115,9 @@ void loop() {
     Serial.println("Sending message to IFTTT ...");
     // blink to indicate IFTTT message is being sent
     for (int i = 0; i < 10; i++) {
-      digitalWrite(LED_BUILTIN, HIGH);
-      delay(100);
       digitalWrite(LED_BUILTIN, LOW);
+      delay(100);
+      digitalWrite(LED_BUILTIN, HIGH);
       delay(100);
     }
     // connect to WiFi if not connected
