@@ -41,10 +41,7 @@ This project connects a smart plug (Tapo P100) to an Arduino to control a ventil
 </p>
 
 ## Set-up Arduino power management
-- [ ] Battery connection
-- [ ] Charging
 - [ ] Sleep
-- [ ] Low power warning
 
 ## Casing
 - [ ] CAD file
